@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid eb34ec3e-e1e1-4de9-96b2-f96deac767e1)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 71.12 85.09) (size 27.94 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1c66a392-ad50-4c55-a116-f38e75a149bd)
+    (property "Sheetname" "RTC" (at 71.12 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RTC.kicad_sch" (at 71.12 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "WeatherStation"
+        (path "/eb34ec3e-e1e1-4de9-96b2-f96deac767e1" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 185.42 38.1) (size 35.56 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3e188e7d-0c83-4f85-8109-01e4823e98a1)
+    (property "Sheetname" "USB_to_TTL" (at 185.42 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB_to_TTL.kicad_sch" (at 185.42 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "WeatherStation"
+        (path "/eb34ec3e-e1e1-4de9-96b2-f96deac767e1" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 73.66 38.1) (size 25.4 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4db4e104-bffa-4b05-b380-e781fa529a76)
+    (property "Sheetname" "power" (at 73.66 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 73.66 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "WeatherStation"
+        (path "/eb34ec3e-e1e1-4de9-96b2-f96deac767e1" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 123.19 38.1) (size 46.99 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid be2192ec-54f4-4fbc-8be2-d4d42b8c45eb)
+    (property "Sheetname" "MCU" (at 123.19 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 123.19 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "WeatherStation"
+        (path "/eb34ec3e-e1e1-4de9-96b2-f96deac767e1" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,28 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "idf.portWin": "COM5",
+    "files.associations": {
+        "freertos.h": "c",
+        "compare": "c",
+        "cstdint": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "span": "c",
+        "*.tcc": "c",
+        "charconv": "c",
+        "chrono": "c",
+        "optional": "c",
+        "format": "c",
+        "ratio": "c",
+        "system_error": "c",
+        "functional": "c",
+        "regex": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "rtc.h": "c",
+        "esp_log.h": "c",
+        "gpio.h": "c"
+    }
+}
